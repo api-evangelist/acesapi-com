@@ -66,7 +66,7 @@
 
 AcesAPI provides a comprehensive tennis data API offering ATP and WTA match results, player rankings, head‑to‑head records, surface Elo ratings, and sportsbook lines since 2007. The service includes 13 endpoints accessible via REST or Model Context Protocol (MCP), with free and paid tiers, detailed documentation, and a developer portal.
 
-**Areas:** Tennis · Sports · Data · API · MCP · Rankings
+**Areas:** Tennis · Sports · Data · MCP · Rankings
 
 ## acesapi-com on APIs.io
 
@@ -83,17 +83,23 @@ Everything profiled for acesapi-com is published on APIs.io rather than in this 
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [acesapi-com-mcp.yml](https://apis.io/servers/acesapi-com/acesapi-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Acesapi Com Agentic Access](https://apis.io/agentic-access/acesapi-com/acesapi-com-agentic-access/)
+- [acesapi-com Agentic Access](https://apis.io/agentic-access/acesapi-com/acesapi-com-agentic-access/)
 
 #### Overlays (1)
 
 OpenAPI overlays, including conversational phrasing for each operation.
 
-- [Acesapi Com Openapi Overlay](https://apis.io/overlays/acesapi-com/acesapi-com-openapi-overlay/)
+- [acesapi-com Openapi Overlay](https://apis.io/overlays/acesapi-com/acesapi-com-openapi-overlay/)
 
 #### Governance rules (1)
 
@@ -105,8 +111,8 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Acesapi Com Authentication](https://apis.io/security/acesapi-com/acesapi-com-authentication/)
-- [Acesapi Com Domain Security](https://apis.io/security/acesapi-com/acesapi-com-domain-security/)
+- [acesapi-com Authentication](https://apis.io/security/acesapi-com/acesapi-com-authentication/)
+- [acesapi-com Domain Security](https://apis.io/security/acesapi-com/acesapi-com-domain-security/)
 
 ## Where to find this API
 
@@ -125,23 +131,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 53.8** — developing · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 45.6** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 48.4 |
-| Contract governance | 79.1 |
-| Operational transparency | 31.6 |
+| Discoverability | 71.7 |
+| Contract quality | 51.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 28.6 |
 | Developer ergonomics | 56.4 |
-| Access clarity | 44.7 |
+| Access clarity | 40.4 |
 
-**Agent readiness 34.0** — agent-ready
+**Agent readiness 29.2** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
@@ -161,8 +167,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/acesapi-com/](https://apis.io/providers/acesapi-com/).
 
